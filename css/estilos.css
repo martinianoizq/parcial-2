@@ -1,0 +1,96 @@
+/*.borde {
+    border: 1px solid black;
+}
+
+*/
+.bkclaro {
+    background-color: #b47ed9;
+}
+
+.titulo{
+    color: #201126;
+}
+
+.claro{
+    color: #b47ed9
+}
+
+
+h1{
+    width: 125px;
+    height: 49px;
+    background:url(../imagenes/logo_cel.png) no-repeat;
+    text-indent: -500px;
+    font-size: 0px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+#youtube{
+    background:url(../imagenes/LOYOTT1.png) no-repeat center center;
+    margin-bottom: 1em;
+}
+
+#facebook{
+    background:url(../imagenes/LOFBF1.png) no-repeat center center;
+    margin-bottom: 1em;
+}
+
+#twitter{
+    background:url(../imagenes/LOWOTW1.png) no-repeat center center;
+    margin-bottom: 1em;
+}
+
+
+#facebook:hover{
+    background:url(../imagenes/LOFBF2.png) no-repeat center center;
+    margin-bottom: 1em;
+}
+
+#youtube:hover{
+    background:url(../imagenes/LOYOTT2.png) no-repeat center center;
+    margin-bottom: 1em;
+}
+
+#twitter:hover{
+    background:url(../imagenes/LOWOTW2.png) no-repeat center center;
+    margin-bottom: 1em;
+}
+
+.cero{
+    font-size: 0px;
+}
+
+
+
+@media screen and (min-width: 576px){
+
+    h1{
+        width: 250px;
+        height: 97px; 
+        background:url(../imagenes/logo_tablet2.png) no-repeat;
+        text-indent: -500px;
+        font-size: 0px;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 882px){
+    
+    h1{
+        width: 250px;
+        height: 97px; 
+        background:url(../imagenes/logo_tablet.png) no-repeat;
+        margin: .5em;
+        text-indent: -500px;
+        font-size: 0px;
+        
+    }
+
+
+}
+
